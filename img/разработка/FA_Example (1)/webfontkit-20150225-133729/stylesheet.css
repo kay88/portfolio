@@ -1,0 +1,28 @@
+@font-face {
+    font-family: 'svgfont_1regular';
+    src: url('font-webfont.eot');
+    src: url('font-webfont.eot?#iefix') format('embedded-opentype'),
+         url('font-webfont.woff2') format('woff2'),
+         url('font-webfont.woff') format('woff'),
+         url('font-webfont.ttf') format('truetype'),
+         url('font-webfont.svg#svgfont_1regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.my {
+	font-family: 'svgfont_1regular';
+	font-size: 32px;
+	display: inline-block;
+	font-style: normal;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.my.my_a::before {
+	content: 'a';
+}
+.my.my_b::before {
+	content: 'b';
+}
